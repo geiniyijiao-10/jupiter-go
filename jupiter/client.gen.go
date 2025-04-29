@@ -194,7 +194,7 @@ type GetQuoteParams struct {
 	OutputMint string `form:"outputMint" json:"outputMint"`
 
 	// Amount Amount of input token
-	Amount float32 `form:"amount" json:"amount"`
+	Amount float64 `form:"amount" json:"amount"`
 
 	// SlippageBps Slippage in basis points
 	SlippageBps *float32 `form:"slippageBps,omitempty" json:"slippageBps,omitempty"`
